@@ -326,6 +326,10 @@ p.descuento {
     padding-bottom: 50px;
 }
 
+.form #user{
+    margin-bottom: 20px;
+}
+
 .button-form {
     border-radius: 4px;
     border: solid #666 0.5px;

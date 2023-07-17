@@ -18,40 +18,40 @@
 </head>
 
 <body>
-    <header class="main-header">
-        <div class="main-header-top-bar">
-            <div class="header-prod">
-                <a href="/"><img class="img-logo" src="/images/logo-mercado-liebre.svg" alt="logo"></a>
-                <p class="search">
-                    <input class="search-bar" type="search" action="/productos" method="POST" name="bus-prod"
-                        placeholder="Buscar productos, marcas...">
-                    <button><i class="fas fa-search"></i></button>
-                </p>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="/">
+                    <img src="images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+                </a>
             </div>
-            <h2 class="copy-header">
-                <i class="fa-solid fa-hand-holding-dollar"></i>
-                Comprá en cuotas y sin tarjeta de crédito
-            </h2>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" name="search" id="search" placeholder="Buscar productos, marcas..">
+
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <p class="texto"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
-
-
         <nav class="main-navbar">
-            <ul>
+            <ul id="top-lista" class="navegacion">
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
                 <li><a href="">Vender</a></li>
                 <li><a href="">Ayuda</a></li>
             </ul>
-            <ul class="right-navbar">
-                <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
-                <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
-                <li><a href="">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+            <ul class="navegacion">
+                <li><a href='/register'>Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href='/login'>Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></i></li>
             </ul>
         </nav>
-        <div class="burguer-menu">
+        <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
-
     </header>
 
     <main>
